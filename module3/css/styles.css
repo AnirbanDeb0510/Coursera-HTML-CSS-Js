@@ -50,13 +50,15 @@ body {
 #nav-list {
   margin-top: 0px;
   margin-bottom: 0px;
+  width: 100%;
 }
 #nav-list a {
   color: black;
   font-weight: bold;
   text-align: center;
   height: 35px;
-  padding: -10px;
+  width: 100%;
+  /* padding: -10px; */
   border-top: 4px solid black;
   border-left: 4px solid black;
   border-right: 4px solid black;
@@ -189,8 +191,8 @@ body {
   #collapsable-nav a {
     /* Collapsed nav menu text */
     font-size: 1.2em;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 16px;
+    /* margin-right: 0px; */
     padding: 0px;
     padding-top: 4px;
   }
@@ -212,13 +214,17 @@ body {
 
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
+@media (max-width: 500px) {
 
   /* Header */
   .navbar-brand h1 {
     /* Restaurant name */
     padding-top: 5px;
     font-size: 6vw;
+  }
+  #collapsable-nav {
+    width: 107%;
+    margin-left: -15px;
   }
 
   /* End Header */
