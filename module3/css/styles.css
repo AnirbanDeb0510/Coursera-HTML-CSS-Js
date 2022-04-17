@@ -139,6 +139,9 @@ body {
   text-align: justify;
   overflow: scroll;
 }
+#home-tiles p::-webkit-scrollbar {
+  width: 0px;
+}
 #home-tiles p +a {
   position: absolute;
   bottom: 0;
